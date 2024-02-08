@@ -17,7 +17,7 @@ python script.py -o output_folder
 
 ## Dependencies
 
-- Trimes: <https://github.com/mikedh/trimesh>
+- Trimesh: <https://github.com/mikedh/trimesh>
 - manifold3d: <https://github.com/elalish/manifold>
 - NumPy: <https://numpy.org/>
 
