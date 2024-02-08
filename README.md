@@ -22,7 +22,7 @@ python script.py -o output_folder
 - NumPy: <https://numpy.org/>
 
 ## Code
-The complete code Python code and logic reside with the `script.py` file. Trimesh library functionalities are used for loading, manipulating and exporting STL meshes.
+The complete Python code and logic reside with the `script.py` file. Trimesh library functionalities are used for loading, manipulating and exporting STL meshes.
 Jupyter notebook `notebook.ipynb` contains similar code with few extra cells that consider a more general task.
 
 ## Output
