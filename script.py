@@ -13,8 +13,9 @@ def main():
         os.mkdir(output) #if it does not exist, create output folder
 
     #load models
-    mesh_screw = trimesh.load_mesh("screw.stl")
-    mesh_nut = trimesh.load_mesh("nut.stl")
+    input_path = "input"
+    mesh_screw = trimesh.load_mesh(input_path + "/screw.stl")
+    mesh_nut = trimesh.load_mesh(input_path + "/nut.stl")
 
     #calculate height of screw head
     mask_box = trimesh.creation.box(bounds=[[14, -2, -10], [20, 2, 20]])
