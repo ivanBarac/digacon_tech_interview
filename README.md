@@ -23,7 +23,7 @@ python script.py -o output_folder
 
 ## Code
 The complete Python code and logic reside with the `script.py` file. Trimesh library functionalities are used for loading, manipulating and exporting STL meshes.
-Jupyter notebook `notebook.ipynb` contains similar code with few extra cells that consider a more general task.
+Jupyter notebook `notebook.ipynb` contains similar code with few extra cells that consider a more general approach.
 
 ## Output
 Three STL files will be generated and saved in the designated output directory:
